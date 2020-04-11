@@ -1,6 +1,6 @@
-# exercise   
+
 # a git note   
-## Basic Syntax   
+### Basic Syntax   
 * git init                                              
 创建本地仓库   
 *************************************
@@ -13,23 +13,26 @@
 * git commit + filename   
 把暂存区的file提交到版本库   
 *************************************
-* git push +filename       
+* git push        
 把版本库中的文件提交到远程仓库               
 例如 git push origin master：refs/for/master ，即是将本地的master分   
 支推送到远程主机origin上的对应master分支， origin 是远程主机名， 第   
 一个master是本地分支名，第二个master是远程分支名。   
 *************************************
-* git pull + filename   
+* git pull origin master   
 把远程仓库master与本地当前分支合并，即拉取最新资源   
 *************************************
-* git remote + repository address   
+* git remote add origin http://xxxx     
 与远程仓库连接   
+************************************8
+* git branch   
+列出当前分支   
 *************************************
-* git clone + repository address   
+* git clone "address" "name"   
 克隆远程仓库到本地当前位置    
 *************************************
-* git checkout  +branchname   
-切换分支     git checkout -b +branchname 创建并切换   
+* git checkout "branchname"    
+切换分支     git checkout -b "branchname" 创建并切换   
 ************************************
 * git status   
 查看文件的状态   
